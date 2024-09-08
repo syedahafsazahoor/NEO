@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NEO - About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NEO - About</h1>
+    <p>NEO is a cutting-edge AI assistant designed to revolutionize the way you work and manage your tasks. Developed by NEO, NEO leverages advanced algorithms and machine learning to provide intelligent and personalized support.</p>
+
+    <h2>Our Mission</h2>
+    <p>Our mission is to empower individuals and teams to achieve their goals by simplifying their daily routines and enhancing their productivity.</p>
+
+    <img src="https://media.istockphoto.com/id/1346125184/photo/group-of-successful-multiethnic-business-team.jpg?b=1&s=612x612&w=0&k=20&c=bnPzFSe0OyDihobiURlo5COABCMY2tMP3dg56EMkizc=" alt="Team photo">
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+              console.log('Service Worker registered with scope:', registration.scope);
+            }, function(error) {
+              console.log('Service Worker registration failed:', error);
+            });
+          });
+        }
+      </script>
+      
+</body>
+</html>

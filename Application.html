@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NEO - Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NEO - Application</h1>
+    <p>Discover the powerful features of NEO, your AI-powered personal productivity assistant.</p>
+
+    <h2>Key Features</h2>
+    <ul>
+        <li>Task management and prioritization</li>
+        <li>Calendar integration and scheduling</li>
+        <li>Goal setting and tracking</li>
+        <li>Natural language processing for efficient interaction</li>
+        <li>Real-time progress monitoring and analytics</li>
+    </ul>
+
+    <h2>How NEO Works</h2>
+    <p>NEO seamlessly integrates with your existing tools to streamline your workflow. Simply connect your calendar, email, and project management platforms, and NEO will automatically organize your tasks, set reminders, and provide personalized recommendations.</p>
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+              console.log('Service Worker registered with scope:', registration.scope);
+            }, function(error) {
+              console.log('Service Worker registration failed:', error);
+            });
+          });
+        }
+      </script>
+      
+</body>
+</html>

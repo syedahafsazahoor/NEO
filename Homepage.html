@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Application.html">Application</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Marketing.html">Marketing</a></li>
+                <li><a href="Userguide.html">User Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h1>Welcome to the Home Page</h1>
+        <p>AI-Powered Personal Productivity Assistant</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NEO</p>
+    </footer>
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+              console.log('Service Worker registered with scope:', registration.scope);
+            }, function(error) {
+              console.log('Service Worker registration failed:', error);
+            });
+          });
+        }
+      </script>      
+</body>
+</html>

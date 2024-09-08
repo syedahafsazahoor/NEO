@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NEO - Marketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NEO - Marketing</h1>
+    <h2>Target Audience</h2>
+    <ul>
+        <li>Busy professionals</li>
+        <li>Students</li>
+        <li>Freelancers</li>
+        <li>Teams and organizations</li>
+    </ul>
+
+    <h2>Marketing Strategies</h2>
+    <p>We plan to reach our target audience through the following channels:</p>
+    <ul>
+        <li>Social media marketing (Facebook, Instagram, LinkedIn)</li>
+        <li>Content marketing (blog posts, articles)</li>
+        <li>Search engine optimization (SEO)</li>
+        <li>Influencer partnerships</li>
+        <li>Email marketing</li>
+    </ul>
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+              console.log('Service Worker registered with scope:', registration.scope);
+            }, function(error) {
+              console.log('Service Worker registration failed:', error);
+            });
+          });
+        }
+      </script>      
+</body>
+</html>

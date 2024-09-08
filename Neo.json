@@ -1,0 +1,8 @@
+{
+    "name": "NEO",
+    "start_url": "/homepage.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+  }
+  

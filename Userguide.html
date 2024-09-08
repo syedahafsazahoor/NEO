@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NEO - User Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NEO - User Guide</h1>
+    <h2>Getting Started</h2>
+    <ol>
+        <li>Download and install the NEO app.</li>
+        <li>Create an account or log in with your existing credentials.</li>
+        <li>Connect your calendar, email, and project management tools.</li>
+    </ol>
+
+    <h2>Using NEO</h2>
+    <p>NEO will automatically organize your tasks based on priority and deadlines. You can also add tasks manually and set reminders.</p>
+    <p>To use NEO's natural language processing capabilities, simply type your requests or questions into the chat interface.</p>
+
+    <h2>Additional Features</h2>
+    <ul>
+        <li>Goal setting and tracking</li>
+        <li>Time management tools</li>
+        <li>Productivity analytics</li>
+    </ul>
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+              console.log('Service Worker registered with scope:', registration.scope);
+            }, function(error) {
+              console.log('Service Worker registration failed:', error);
+            });
+          });
+        }
+      </script>      
+</body>
+</html>
